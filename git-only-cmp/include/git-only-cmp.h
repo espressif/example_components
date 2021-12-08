@@ -1,0 +1,1 @@
+void git_only_cmp_hello(void);
