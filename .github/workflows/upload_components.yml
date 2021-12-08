@@ -1,0 +1,19 @@
+name: Upload components to the registry
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload_components:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Upload components
+        uses: espressif/github-actions/upload_components@master
+        with:
+          name: cmp
+          directories: cmp
+          namespace: example
+          api_token: ${{ secrets.IDF_COMPONENT_API_TOKEN }}
