@@ -1,3 +1,7 @@
+## 3.3.7
+
+- Fix accidentally excluded header file
+
 ## 3.3.6
 
 - Add repository url and description
