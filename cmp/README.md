@@ -6,7 +6,7 @@ To use it with your ESP-IDF project make sure that [the component manager](https
 
 ```yaml
 dependencies:
-  example/cmp: "~3.3.3"
+  example/cmp: "^3.3.3"
 ```
 
 ## API
