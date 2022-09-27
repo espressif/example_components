@@ -5,3 +5,9 @@
 *.tar
 
 dist
+
+# example build files
+build
+sdkconfig
+managed_components
+dependencies.lock
