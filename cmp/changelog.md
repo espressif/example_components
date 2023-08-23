@@ -1,3 +1,7 @@
+## 3.3.9
+
+- Add more fields to the manifest of `cmp`
+
 ## 3.3.8
 
 - Add example
