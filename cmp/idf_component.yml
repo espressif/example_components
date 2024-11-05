@@ -1,4 +1,4 @@
-version: "3.3.9"
+version: "3.3.9~1"
 description: This component is an example, to be used with the IDF component manager.
 url: https://github.com/espressif/example_components/tree/main/cmp
 issues: https://github.com/espressif/example_components/issues
